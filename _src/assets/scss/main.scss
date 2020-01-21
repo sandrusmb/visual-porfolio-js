@@ -2,8 +2,21 @@
 @import "core/variables";
 @import "layout/body";
 @import "layout/footer";
+@import "layout/header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  margin: 0;
-  height: 100vh;
+  background: #f3f3f3;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
 }
