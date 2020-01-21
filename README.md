@@ -99,6 +99,22 @@ La estructura de carpetas tiene esta pinta:
 
 ```
 
+scss
+|
+|- main.scss/index.scss (archivo principal)
+|
+|- core
+| |- \_functions.scss
+| |- \_mixins.scss
+| `- _variables.scss | |- components | |- _buttons.scss | |- _forms.scss | |- _hero.scss | |- _newsletter.scss |`- \_typography.scss
+|
+|- layout
+| |- \_header.scss
+| |- \_footer.scss
+| |- \_grid.scss
+|
+`- pages |- _about-us.scss |- _contact.scss`- \_home.scss
+
 ## HTML
 
 Viene incluído el paquete [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) que nos va a permitir tener un sistema de plantillas html
