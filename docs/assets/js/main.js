@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";const grid=new Muuri(".grid",{layout:{rounding:!1}});window.addEventListener("load",()=>{document.getElementById("grid").classList.add("js-imagenes-cargadas")});

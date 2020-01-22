@@ -4,19 +4,60 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Adalab Web Starter Kit</title>
-        <link rel="icon" href="./favicon.png" />
+        <title>Visual porfolio con JavaScript</title>
+        <link rel="icon" href="./favicon.png"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+        rel="stylesheet" />
         <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
     
     <body>
-        <div class="page">
-            <header class="page__header">Header</header>
-            <main class="page__main">Main</main> <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
+        <div class="contenedor">
+            <header class="header">
+                <div class="header__logo">
+                     <h1>Sandra Martín</h1>
 
-            <a
-            class="link__github" href="https://github.com" target="_blank">GitHub</a>
+                    <p class="header__logo__p">Frontend developer</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Buscar" class="header__input" id="search"
+                    />
+                </form>
+                <nav class="header__menu" id="menu"> <a href="#" id="active" class="header__menu__link">Todo</a>
+ <a href="#"
+                    class="header__menu__link">Work</a>
+ <a href="#" class="header__menu__link">Travel</a>
+
+                    <a
+                    href="#" class="header__menu__link">Friends</a> <a href="#" class="header__menu__link">Sport</a>
+
+                </nav>
+            </header>
+            <main class="grid js-imagenes-cargadas" id="grid">
+                <div class="grid__item">
+                    <div class="grid__item__contenido">
+                        <img class="grid__item__contenido__foto" src="../../assets/images/aaron-burden-AXqMy8MSSdk-unsplash.jpg"
+                        alt="cuaderno" />
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__contenido">
+                        <img class="grid__item__contenido__foto" src="../../assets/images/aaron-burden-AXqMy8MSSdk-unsplash.jpg"
+                        alt="cuaderno" />
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__contenido">
+                        <img class="grid__item__contenido__foto" src="../../assets/images/aaron-burden-AXqMy8MSSdk-unsplash.jpg"
+                        alt="cuaderno" />
+                    </div>
+                </div>
+            </main>
         </div>
+        <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+        <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+        <script src="../assets/js/main.js"></script>
     </body>
 
 </html>
