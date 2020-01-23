@@ -35,4 +35,4 @@ window.addEventListener("load", () => {
   });
 });
 
-//Mejoras: separar las funciones. Añadir un mensaje cuando no encuentre fotos buscando por el input de texto.
+//Mejoras: separar las funciones. Añadir un mensaje cuando no encuentre fotos buscando por el input de texto. Coger los datos de un json/api.

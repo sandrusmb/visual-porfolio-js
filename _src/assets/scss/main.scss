@@ -1,8 +1,9 @@
 @import "core/settings";
 @import "core/variables";
-@import "layout/body";
-@import "layout/footer";
 @import "layout/header";
+@import "layout/body";
+@import "layout/detail";
+@import "layout/footer";
 
 * {
   margin: 0;
