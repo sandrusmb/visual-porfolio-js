@@ -1,0 +1,36 @@
+.container {
+  &__redes {
+    display: flex;
+    justify-content: center;
+
+    &__icon {
+      padding: 20px 10px 20px 10px;
+      font-size: 50px;
+
+      &__link {
+        color: grey;
+
+        :hover {
+          color: orange;
+          animation: pepe 0.5 ease;
+          font-size: 70px;
+        }
+      }
+    }
+  }
+
+  &__autor {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+    padding-bottom: 20px;
+  }
+}
+
+i {
+  &:hover {
+    color: orange;
+    font-size: 20px;
+  }
+}
