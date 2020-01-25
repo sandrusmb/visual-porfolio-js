@@ -55,6 +55,12 @@ window.addEventListener("load", () => {
     .addEventListener("click", () => {
       overlay.classList.remove("js-active");
     });
+
+  // listener del overley
+
+  overlay.addEventListener("click", ev => {
+    ev.target.id === "overlay" ? overlay.classList.remove("js-active") : "";
+  });
 });
 
 //Mejoras: separar las funciones. Añadir un mensaje cuando no encuentre fotos buscando por el input de texto. Coger los datos de un json/api.
