@@ -16,5 +16,7 @@ Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com
 2. Instala las dependencias locales con `npm install`
 3. Arranca el kit con `gulp`
 
+## Demo
+
 ![Demo](https://github.com/sandrusmb/visual-porfolio-js/blob/master/_src/assets/images/porfolio-visual.gif)
 
